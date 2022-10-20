@@ -2,27 +2,53 @@
 	font-family: 'Nouveau IBM', sans-serif;
 	font-family: 'Nouveau IBM Stretch', sans-serif;
 }
+body {
+	margin: 0;
+	background-color: #5A2790;
+}
 header {
 	position: absolute;
+	display: block;
 	width: 100%;
-	background-color: #AB3585;
-	height: 20%;
+	background-color: #ab3585;
+	height: 13%;
 	border-radius: 40px;
+	border: 2px solid black;
+	margin-top: 30px;
 }
-button{
+nav {
 	display: inline-block;
-	width: 33%;
+	width: 24%;
 	text-align: center;
 	color: #5A2790;
 	font-size: 50px;
 	height: 100%;
-	background-color: #AB3585;
+}
+button{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	color: #5A2790;
+	font-size: 50px;
+	height: 100%;
+	background-color: #ab3585;
 	border-radius: 40px;
 	border: none;
 }
 button:hover {
 	color: #D5465C;
 }
-body {
-	background-color: #5A2790;
+.container {
+	top: 22%;
+	position: absolute;
+	height: 70%;
+	width: 100%;
+	
+}
+.container img {
+	position: absolute;
+	left: 6.7%;
+	height: 100%;
+	border-radius: 20px;
+	border: 5px solid black;
 }
