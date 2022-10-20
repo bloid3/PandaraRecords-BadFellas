@@ -1,0 +1,28 @@
+* {
+	font-family: 'Nouveau IBM', sans-serif;
+	font-family: 'Nouveau IBM Stretch', sans-serif;
+}
+header {
+	position: absolute;
+	width: 100%;
+	background-color: #AB3585;
+	height: 20%;
+	border-radius: 40px;
+}
+button{
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+	color: #5A2790;
+	font-size: 50px;
+	height: 100%;
+	background-color: #AB3585;
+	border-radius: 40px;
+	border: none;
+}
+button:hover {
+	color: #D5465C;
+}
+body {
+	background-color: #5A2790;
+}
